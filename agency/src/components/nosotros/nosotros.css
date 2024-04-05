@@ -1,4 +1,4 @@
-
+ 
 
 .divNosotros{
     margin-top: 90px;
@@ -8,9 +8,6 @@
     margin-top: 200px;
     margin-bottom: 100px;
     width: 100%;
-    
-    
-  
 }
 
 .imgNosotros{
@@ -28,7 +25,7 @@
 
 
 .letrasNosotros{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     width: 500px;
     margin-left: 30px;
     margin-right: 60px;
@@ -36,7 +33,7 @@
 }
 
 .letrasGolden{
-    color:#F57EB4;
+    color:#8b0404;
     text-decoration: none;
     font-weight: 600;
 }

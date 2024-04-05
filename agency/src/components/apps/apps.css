@@ -1,8 +1,42 @@
 .apps{
     margin-top: 170px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 252, 252);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+   
+}
+
+.imgApps{
+    width: 200px;
+    border-radius: 40px;
+    
+}
+
+.contenedorAppPrincipal{
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+.appsDiv{
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: aliceblue;
+    padding: 40px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition:  box-shadow 0.3s ease;
+    
+}
+
+.appsDiv:hover{
+    box-shadow: 0.4rem 0.4rem 0.4rem 0.4rem rgba(0,0,0,0.3) ;
+}
+
+.letasApps{
+    margin-top: 20px;
 }

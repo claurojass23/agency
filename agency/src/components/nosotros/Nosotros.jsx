@@ -5,7 +5,7 @@ import chicas from '../../img/negro.png'
 export default function Nosotros() {
   return (
     <>
-    <body>
+    
     <div className='divNosotros'>
       <div className='letrasNosotros'>
         <h1>QUIENES SOMOS</h1>
@@ -23,7 +23,7 @@ export default function Nosotros() {
       </div>
     </div>
       
-    </body>
+    
     </>
   )
 }
