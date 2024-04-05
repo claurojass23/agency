@@ -1,0 +1,42 @@
+.conteinerUnete{
+    margin-top: 200px;
+    color: aliceblue;
+    display: flex;
+}
+
+.streamer{
+   width: 50%;
+   margin-left: 150px;
+}
+
+.titulosUnete{
+    color:#8b0404;
+    text-align: center;
+    
+}
+
+.iconUnete{
+    width: 30px;
+    color: #8b0404;
+    height: 20px;
+}
+
+.imagenUnete{
+    width: 270px;
+    margin-left: 95px;
+    transition:  box-shadow 0.3s ease;
+    box-shadow:  0.1rem 0.4rem 0.4rem rgba(0,0,0,0.3) ;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.buttonUnete{
+    position: relative;
+    right: 200px;
+    top: 170px;
+}
+
+.linkUnete{
+    text-decoration: none;
+    color: aliceblue;
+}

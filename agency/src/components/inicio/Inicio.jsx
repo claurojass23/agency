@@ -1,5 +1,5 @@
 import React from 'react'
-import imagen from '../../img/golden.png'
+import imagen from '../../img/ig.png'
 import './inicio.css'
 export default function Inicio() {
   return (
