@@ -81,9 +81,25 @@ body{
       cursor: pointer;
 }
   
+.iconNav{
+      height: 25px;
+      cursor: pointer;
+      margin: 4px;
+      color: #E92779;
+      transition: transform 0.2s ease;
+}
 
-  
-  
+.iconNav:hover {
+      transform: scale(2.1); /* Escalamos el tamaño del icono al 110% cuando el cursor pasa por encima */
+  }
+
+
+
+.ulIcons{
+      position: relative;
+      bottom: 7px;
+      left:10px;
+}
   
   
   

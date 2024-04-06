@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom'
 import './navegador.css'
 import img from '../img/logo.png'
+import { FaFacebookSquare,FaInstagram,FaTiktok,FaWhatsapp } from "react-icons/fa";
 
 export default function Navegador() {
   return (
@@ -17,7 +18,16 @@ export default function Navegador() {
               <li className='NavItem'><NavLink className='NavLink' to="/Beneficios">Beneficios</NavLink></li>
               <li className='NavItem'><NavLink className='NavLink' to="/Apps">Apps</NavLink></li>
             </ul>
+            <div>
+          <div className='ulIcons'>
+          <a href='https://www.facebook.com/profile.php?id=61553020993486' target="_blank"><FaFacebookSquare className='iconNav'/></a>
+          <a href='https://www.instagram.com/goldengushagency/' target="_blank"><FaInstagram  className='iconNav'/></a>
+          <a href='https://www.tiktok.com/@goldengushagency?lang=es' target="_blank"><FaTiktok  className='iconNav'/></a>
+          <a href='https://l.instagram.com/?u=https%3A%2F%2Fwa.me%2Fmessage%2FXFBRCAJUCJOBF1&e=AT1KKt1NICrKQum5KFRQpOEXMfIGQsNr4Q77YAUBhdA3AFzkqHrcTQbbjfX9gaeFTp20V8m13EPPTQRRFF9hZ80i8ZHM9a7KO0iBHA' target="_blank"><FaWhatsapp className='iconNav' /></a>
+          </div>
         </div>
+        </div>
+        
      </nav>
     </>
   )

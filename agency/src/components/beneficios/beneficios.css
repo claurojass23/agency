@@ -1,0 +1,20 @@
+.conteinerBeneficios{
+    margin-top: 200px;
+    margin-left: 150px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.titulosBeneficios{
+    color:#8b0404;
+    text-align: center;
+}
+
+
+
+.beneficios{
+    width: 50%;
+    margin-right: 90px;
+}
+

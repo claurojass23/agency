@@ -27,7 +27,7 @@
     flex-direction: column-reverse;
     background-color: white;
     padding: 40px;
-    border-radius: 40px;
+    border-radius: 20px 60px;;
     cursor: pointer;
     transition:  box-shadow 0.3s ease;
     
