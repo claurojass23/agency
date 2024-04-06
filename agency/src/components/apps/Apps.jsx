@@ -1,56 +1,72 @@
-import React from 'react'
-import './apps.css'
-import glow from '../../img/glow.png'
-import livchat from '../../img/livchat.png'
-import tigo from '../../img/tigo.png'
-import mako from '../../img/mako.png'
-
+import React, { useState } from 'react';
+import './apps.css';
+import glow from '../../img/glow.png';
+import livchat from '../../img/livchat.png';
+import tigo from '../../img/tigo.png';
+import mako from '../../img/mako.png';
+import imagen1 from '../../img/docglow1.png';
+import imagen2 from '../../img/docglow2.png';
+import doclivchat1 from '../../img/doclivchat1.png'
+import doclivchat2 from '../../img/doclivchat2.png'
+import doctigo from '../../img/doctigo.png'
+import docmako from '../../img/docmako.png'
 
 
 export default function Apps() {
+  const [mostrarModal, setMostrarModal] = useState(false);
+
+  const toggleModal = () => {
+    setMostrarModal(!mostrarModal);
+  };
+
   return (
     <>
-    <div className='apps'>
-    <h1>APLICACIONES DISPONIBLES</h1>
-    <p>Descubre formas flexibles de ganar dinero con estas aplicaciones, permitiéndote equilibrar tus responsabilidades personales y profesionales</p>
-    </div>
+      <div className='apps'>
+        <h1>APLICACIONES DISPONIBLES</h1>
+        <p>Descubre formas flexibles de ganar dinero con estas aplicaciones, permitiéndote equilibrar tus responsabilidades personales y profesionales</p>
+      </div>
 
-    <div className='contenedorAppPrincipal'>
-      
-         <div className="appsDiv">
-            <div className='letasApps'>
-               <h2>GlOW</h2>
-               <p>APP PAGOMANUAL</p>
-           </div>
-           <img src={glow} className='imgApps'></img>
-         </div>
-         <div className="appsDiv">
-            <div className='letasApps'>
-               <h2>LIVCHAT</h2>
-               <p>APP PAGOMANUAL</p>
-            </div>
-           <img src={livchat} className='imgApps'></img>
-         </div>
-         <div className="appsDiv">
-            <div className='letasApps'>
-               <h2>TIGO</h2>
-               <p>APP AUTORETIRO</p>
-           </div>
-           <img src={tigo} className='imgApps'></img>
-         </div>
-          <div className="appsDiv" >
-             <div className='letasApps'>
-               <h2>MAKO</h2>
-               <p>APP AUTORETIRO</p>
-             </div>
-           <img src={mako} className='imgApps'></img> 
-         </div>
+      <div className='contenedorAppPrincipal'>
+        <div className="appsDiv" onClick={toggleModal}>
+          <div className='letasApps'>
+            <h2>GlOW</h2>
+            <p>APP PAGOMANUAL</p>
+          </div>
+          <img src={glow} className='imgApps' />
+        </div>
 
-      
-         
-      
+        {mostrarModal && (
+  <div className="modal" style={{ display: 'block' }}>
+    <div className="modal-content" style={{ backgroundColor: '#fefefe', margin: '10% auto', padding: '20px', border: '1px solid #888', width: '80%', maxWidth: '600px', position: 'relative' }}>
+      <span className="close" onClick={toggleModal} style={{ color: '#aaa', float: 'right', fontSize: '28px', fontWeight: 'bold' }}>&times;</span>
+      <img src={imagen1} alt="Imagen 1" />
+      <img src={imagen2} alt="Imagen 2" />
     </div>
-    
+  </div>
+)}
+
+        <div className="appsDiv">
+          <div className='letasApps'>
+            <h2>LIVCHAT</h2>
+            <p>APP PAGOMANUAL</p>
+          </div>
+          <img src={livchat} className='imgApps' />
+        </div>
+        <div className="appsDiv">
+          <div className='letasApps'>
+            <h2>TIGO</h2>
+            <p>APP AUTORETIRO</p>
+          </div>
+          <img src={tigo} className='imgApps' />
+        </div>
+        <div className="appsDiv">
+          <div className='letasApps'>
+            <h2>MAKO</h2>
+            <p>APP AUTORETIRO</p>
+          </div>
+          <img src={mako} className='imgApps' />
+        </div>
+      </div>
     </>
-  )
+  );
 }

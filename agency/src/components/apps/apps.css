@@ -40,3 +40,7 @@
 .letasApps{
     margin-top: 20px;
 }
+
+.modal{
+    cursor: pointer;
+}
