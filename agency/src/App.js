@@ -1,5 +1,5 @@
 import{Routes,Route,} from 'react-router-dom'
-
+import Fotter from '../src/footer/Footer'
 import './App.css'
 import Unete from './components/unete/Unete'
 import Nosotros from './components/nosotros/Nosotros'
@@ -12,15 +12,14 @@ function App() {
   return (
     <>
        <Navegador/>
-       <Routes>
+      <Routes>
         <Route path='/' element={<Inicio/>}/>
         <Route path='/Unete' element={<Unete/>}/>
         <Route path='/Nosotros' element={<Nosotros/>}/>
         <Route path='/Beneficios' element={<Beneficios/>}/>
-       <Route path='/Apps' element={<Apps/>}/>
-
-
+        <Route path='/Apps' element={<Apps/>}/>
       </Routes>
+      <Fotter/>
     </>
   );
 }

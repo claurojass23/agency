@@ -1,0 +1,15 @@
+.conteinerFoter{
+    background-color:#F699C3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.linFooter{
+    text-decoration: none;
+    color: black;
+}
