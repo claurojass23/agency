@@ -36,8 +36,8 @@ export default function Apps() {
   return (
     <>
       <div className='apps'>
-        <h1>APLICACIONES DISPONIBLES</h1>
-        <p>Descubre formas flexibles de ganar dinero con estas aplicaciones, permitiéndote equilibrar tus responsabilidades personales y profesionales</p>
+        <h1 className='tituloApps'>APLICACIONES DISPONIBLES</h1>
+        <p className='parrafoApps'>Descubre formas flexibles de ganar dinero con estas aplicaciones, permitiéndote equilibrar tus responsabilidades personales y profesionales</p>
       </div>
 
       <div className='contenedorAppPrincipal'>

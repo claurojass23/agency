@@ -2,8 +2,10 @@ import { NavLink } from 'react-router-dom'
 import './navegador.css'
 import img from '../img/logo.png'
 import { FaFacebookSquare,FaInstagram,FaTiktok,FaWhatsapp } from "react-icons/fa";
+import { HiViewList } from 'react-icons/hi';
 
 export default function Navegador() {
+  
   return (
     <>
     <nav className='navegador'>

@@ -1,6 +1,21 @@
 
-.imagenInicio{
+.imagenInicio {
     width: 100%;
     margin: 0;
     margin-top: 90px;
+}
+
+@media only screen and (max-width: 768px) {
+    .imagenInicio{
+        margin-top:145px;
+        
+     } 
+}
+  
+
+@media only screen and (max-width: 480px) {
+ .imagenInicio{
+    margin-top:140px;
+    
+ }   
 }

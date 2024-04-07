@@ -14,7 +14,7 @@
     
 }
 
-.contenedorAppPrincipal{
+.contenedorAppPrincpail{
     display: flex;
     margin-top: 40px;
     justify-content: space-evenly;
@@ -43,4 +43,43 @@
 
 .modal{
     cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+    .parrafoApps{
+      margin:30px;
+    }
+    .appsDiv{
+        margin: 100px;
+        border-radius: 70px;
+    }
+    .imgApps{
+        margin-left: 150px;
+    }
+
+}
+  
+
+@media only screen and (max-width: 480px) {
+ .apps{
+ width: 100%;
+ }
+
+ .tituloApps{
+    margin: 5px;
+    
+ }
+
+ .parrafoApps{
+    margin: 15px;
+    margin-left: 5px;
+ }
+
+ .contenedorAppPrincpail{
+    display: flex;
+ }
+
+ .appsDiv{
+    margin: 40px;
+ }
 }
