@@ -4,15 +4,20 @@ import img from '../img/logo.png'
 import { FaFacebookSquare,FaInstagram,FaTiktok,FaWhatsapp } from "react-icons/fa";
 import { HiViewList } from 'react-icons/hi';
 
+
 export default function Navegador() {
+  
+
+  
   
   return (
     <>
     <nav className='navegador'>
         <div className='conteiner'>
             <div className='subContenedor'> 
-            <img src={img} className='imagLogo'></img>
+            <a href='/'><img src={img} className='imagLogo'></img></a>
            </div>
+           <HiViewList/>
             <ul className='Navmenu'>
               <li className='NavItem'><NavLink className='NavLink' to="/">Inicio</NavLink></li>
               <li className='NavItem'><NavLink className='NavLink' to="/Unete">¡NO TE PIERDAS! ÚNETE YA</NavLink></li>

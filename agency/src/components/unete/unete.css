@@ -98,8 +98,8 @@
     }
     .buttonUnete{
         position: relative;
-        top: -70px; /* Ajusta según sea necesario para moverlo hacia arriba */
-        left: 120px;
+        top: -70px; 
+        left: 20px;
         width: 150px;
     }
     
