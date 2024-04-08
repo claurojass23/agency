@@ -5,7 +5,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-   margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .imgApps{
@@ -14,7 +14,7 @@
     
 }
 
-.contenedorAppPrincpail{
+.contenedorAppPrincipal{
     display: flex;
     margin-top: 40px;
     justify-content: space-evenly;
@@ -45,41 +45,41 @@
     cursor: pointer;
 }
 
+
 @media only screen and (max-width: 768px) {
     .parrafoApps{
-      margin:30px;
+        margin: 30px;
+    }
+    .contenedorAppPrincipal {
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+     grid-template-rows: auto auto auto; 
+      gap: 20px;
     }
     .appsDiv{
-        margin: 100px;
-        border-radius: 70px;
+     margin: 20px;
     }
     .imgApps{
-        margin-left: 150px;
+        margin-left: 30px;
     }
-
+    
 }
   
 
 @media only screen and (max-width: 480px) {
- .apps{
- width: 100%;
- }
-
- .tituloApps{
-    margin: 5px;
-    
- }
-
- .parrafoApps{
-    margin: 15px;
-    margin-left: 5px;
- }
-
- .contenedorAppPrincpail{
-    display: flex;
- }
-
- .appsDiv{
-    margin: 40px;
- }
+   
+    .parrafoApps{
+        margin: 10px;
+    }
+    .contenedorAppPrincipal{
+     display: flex;
+     flex-direction: column;
+    }
+    .appsDiv{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .imgApps{
+        margin-left: 20px;
+    }
 }

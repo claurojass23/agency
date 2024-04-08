@@ -75,7 +75,8 @@ export default function Apps() {
           )}
         </div>
 
-        <div className="appsDiv" onClick={toggleModalTigo}>
+       
+         <div className="appsDiv" onClick={toggleModalTigo}>
           <div className='letasApps'>
             <h2>TIGO</h2>
             <p>APP AUTORETIRO</p>
@@ -89,9 +90,9 @@ export default function Apps() {
               </div>
             </div>
           )}
-        </div>
+          </div>
 
-        <div className="appsDiv" onClick={toggleModalMako}>
+         <div className="appsDiv" onClick={toggleModalMako}>
           <div className='letasApps'>
             <h2>MAKO</h2>
             <p>APP AUTORETIRO</p>
@@ -105,7 +106,8 @@ export default function Apps() {
               </div>
             </div>
           )}
-        </div>
+         </div>
+       
 
       </div>
     </>
