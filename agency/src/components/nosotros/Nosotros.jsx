@@ -14,12 +14,11 @@ export default function Nosotros() {
         <p>En <a className='letrasGolden'>Golgen Gush Agency</a>, nuestra misión es simple pero poderosa: ayudar a las mujeres a alcanzar sus metas financieras y personales, ofreciendo oportunidades de trabajo flexibles desde casa sin necesidad de inversión inicial.</p>
       </div>
     
-      <div>
-      
-      <a href="https://www.instagram.com/danielabrs_/">
-        <img src={chicas} className='imgNosotros' alt="Chicas en Instagram" />
-      </a>
-        
+    
+      <div className='ceo'>
+        <a href="https://www.instagram.com/danielabrs_/" target="_blank">
+          <img src={chicas} className='imgNosotros' alt="Chicas en Instagram" />
+        </a>
       </div>
     </div>
       

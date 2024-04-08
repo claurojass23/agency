@@ -26,7 +26,7 @@ export default function Unete() {
       </div>
       <div >
         <img className='imagenUnete' src={chicas}></img>
-        <Button className='buttonUnete' variant="danger" href='https://api.whatsapp.com/message/XFBRCAJUCJOBF1?autoload=1&app_absent=0'>EMPIEZA AQUI</Button>
+        <Button className='buttonUnete' variant="danger" href='https://api.whatsapp.com/message/XFBRCAJUCJOBF1?autoload=1&app_absent=0' target="_blank">EMPIEZA AQUI</Button>
       </div>
     </div>
     </>
